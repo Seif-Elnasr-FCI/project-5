@@ -1,0 +1,185 @@
+nav {
+
+    background-image: url("../img/bg-pattern.png") , linear-gradient(to right , rgb(219,36,49) , rgb(124,67,150)) !important;
+    
+}
+
+header {
+
+    height: 700px;
+    background-image: url("../img/bg-pattern.png") ,linear-gradient(to right , rgb(219,36,49) , rgb(124,67,150) ) !important;
+}
+
+@media(max-width:825px){
+
+    header {
+        flex-direction: column;
+        height: 1200px;
+        
+    }
+}
+
+
+.content h1 {
+
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    
+}
+
+.content button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: transparent; 
+    color: white;
+    border-radius: 50px;
+    
+}
+
+header .img img {
+
+    width: 250px;
+    border-radius: 40px;
+}
+
+.info {
+
+    height: 350px;
+    background-color: rgb(253,202,76);
+    text-align: center;
+}
+
+.info button {
+    background-color: transparent;
+    border: none;
+}
+
+.theme {
+
+    height: 800px;
+}
+
+.theme h1,p {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media(max-width:765px) {
+
+    .thumb {
+
+        flex-direction: column;
+        
+    }
+
+    .theme {
+
+        height: 1700px;
+        
+    }
+
+    .card img {
+
+        position: relative;
+        left: 130px;
+    }
+
+    .card {
+        
+        border: 2px solid black !important;
+        padding: 10px;
+    }
+    
+    
+}
+
+.thumb  img {
+
+    width: 250px;
+    border-radius: 35px;
+}
+
+.row {
+
+    width: 560px;
+    
+}
+
+.card {
+
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+
+.card:hover{
+
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.card img {
+    width: 90px;
+    margin-left: 75px;
+    
+}
+
+.poster {
+    height: 700px;
+    background-image: linear-gradient(to right , rgba(0,0,0,0.8) , rgba(0,0,0,0.5)) , url("../img/bg-cta.jpg") !important;
+    background-size: 100% 100%;
+}
+
+.poster button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: transparent; 
+    color: white;
+    border-radius: 50px;
+
+}
+
+.poster h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.final {
+
+    height: 300px;
+    background-color: rgb(253, 200, 67);
+    flex-direction: column;
+}
+
+.final button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: transparent; 
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.final h1 {
+
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.cr {
+    height: 100px;
+    background-color: black;
+}
+
+.cr h5 {
+
+   color: gray;
+
+}
